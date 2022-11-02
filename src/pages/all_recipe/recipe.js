@@ -1,6 +1,6 @@
 import * as React from "react"
 import { Link, graphql } from "gatsby"
-import Layout from '../components/layout'
+
 
 const pageStyles = {
   color: "#232129",
@@ -100,4 +100,4 @@ query {
 
 export default recipe
 
-export const Head = () => <title>Not found</title>
+export const Head = () => <title>recipe</title>
